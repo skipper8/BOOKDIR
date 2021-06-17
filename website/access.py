@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 from param_dic import params
 
-class Accesss(self):
+class Accesss():
     def __init__(self):
         #CONNECT
         self.param = params("lib", "5432")
