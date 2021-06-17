@@ -1,1 +1,46 @@
-<h1> MUSIC </h1>
+<h1 style="background-color: LightSeaGreen; color: White; padding: 14px 16px"> MUSIC </h1>
+
+<style>
+.topnav {
+   background-color: LightSeaGreen;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: DarkSeaGreen;
+    color: White;
+}
+
+.topnav a.active {
+    background-color: SeaGreen;
+    color: White;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+</style>
+
+<div class="topnav">
+  <a href="/">Home</a>
+  <a href="/library/books">Books</a>
+  <a class="active" href="/library/music">Music</a>
+  <a href="/library/games">Games</a>
+  <a href="/library/movies">Movies</a>
+  <input type="text" placeholder="Search..">
+</div>
+
